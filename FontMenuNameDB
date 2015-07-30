@@ -1,0 +1,31 @@
+#!opentype
+
+# [PostScriptName]
+#   f = Preferred Family Name
+#   s = Subfamily Name (Style Name)
+#   l = Compatible Family Menu Name
+#   m = 1, Macintosh Compatible Full Name
+
+[MySinhala-Light]
+  f = My Sinhala
+  s = Light
+  l = My Sinhala Light
+
+[MySinhala-Regular]
+  f = My Sinhala
+  s = Regular
+
+[MySinhala-Medium]
+  f = My Sinhala
+  s = Medium
+  l = My Sinhala Medium
+
+[MySinhala-SemiBold]
+  f = My Sinhala
+  s = SemiBold
+  l = My Sinhala SemiBold
+
+[MySinhala-Bold]
+  f = My Sinhala
+  s = Bold
+  # styles/Bold/fontinfo: IsBoldStyle true
