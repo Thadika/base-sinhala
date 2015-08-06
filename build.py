@@ -70,7 +70,7 @@ for font in STYLE_NAMES:
     f=open(style_dir+'/features', 'w')
     f.write(TEMPLATE_FEATURES)
     f.close()
-    otf_path=build_path+"/"+font+".otf"
+    otf_path=build_path+"/"+FAMILY_NAME+"-"+font+".otf"
     print check_output("makeotf -f "+style_dir+"/font.ufo -o "+otf_path+" -mf FontMenuNameDB -gf GlyphOrderAndAliasDB"+makeotf_args, shell=True)
 
 
