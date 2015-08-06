@@ -1,5 +1,6 @@
 import os, shutil, subprocess
 from subprocess import check_output
+from config import *
 
 import robofab.world
 
@@ -46,7 +47,7 @@ style_path=("style")
 if os.path.isdir(style_path):
     shutil.rmtree(style_path)
 os.makedirs("style")
-subprocess.call(['python', 'UFOInstanceGenerator.py', 'masters', '-o', 'style', '-flat', '-indi'])
+subprocess.call(['python', 'UFOInstanceGenerator.py', 'masters', '-o', 'style']+UFOIG_ARGS)
 build_path=("build")
 if not os.path.isdir(build_path):
     os.makedirs('build')
@@ -66,7 +67,6 @@ for font in STYLE_NAMES:
     f.write(TEMPLATE_FEATURES)
     f.close()
     otf_path=build_path+"/"+font+".otf"
-    print otf_path
-    print check_output("makeotf -f "+style_dir+"/font.ufo -o "+otf_path+" -mf FontMenuNameDB -gf GlyphOrderAndAliasDB -r", shell=True)
+    subprocess.call(["makeotf", "-f",style_dir+ "/font.ufo", "-o",otf_path,"-mf", "FontMenuNameDB", "-gf", "GlyphOrderAndAliasDB"]+MAKEOTF_ARGS, shell=True)
 
 
