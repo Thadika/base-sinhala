@@ -3,6 +3,9 @@
 languagesystem DFLT dflt;
 languagesystem sinh dflt;
 
+table head {
+  FontRevision 1.000;
+} head;
 
 #---- --AKHN ------------
 
