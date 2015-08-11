@@ -7,6 +7,8 @@ table head {
   FontRevision 1.000;
 } head;
 
+include (../../family_tables.fea);
+
 #---- --AKHN ------------
 
 lookup si_akhands {
