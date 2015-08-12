@@ -74,8 +74,7 @@ table name {
   nameid 11   "http://mooniak.com/";
 
 # URL designer:
-  nameid 12   "http://www.indiantypefoundry.com";
-  nameid 12 1 "http://www.indiantypefoundry.com";
+  nameid 12   "http://mooniak.com/";
 
 # License description:
   nameid 13   "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
