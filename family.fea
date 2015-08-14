@@ -509,7 +509,9 @@ lookup si_rakaar {
     sub si_NDa si_Halant si_Ra by si_NDRa;
 } si_rakaar;
 
-
+lookup si_kern {
+    pos si_A <0 0 0 0>;
+} si_kern;
 ##--------------- Lookups ---------------##
 
 feature akhn {
@@ -570,4 +572,20 @@ feature rkrf {
         lookup si_rakaar;
 } rkrf;
 
+feature kern {
+    script sinh;
+        lookup si_kern;
+} kern;
+
+feature dist {
+    script sinh;
+} dist;
+
+feature abvm {
+    script sinh;
+} abvm;
+
+feature blwm {
+    script sinh;
+} blwm;
 #-------------
