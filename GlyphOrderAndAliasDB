@@ -6,7 +6,7 @@ NULL NULL uni0000
 CR CR uni000D
 space space uni0020
 
-# Vowel letters	# Vowel letters
+### Vowel letters
 anusvara	anusvara	  uni0D82
 visarga	visarga	  uni0D83
 si_A	si_A	  uni0D85
@@ -27,7 +27,8 @@ si_Ai	si_Ai	  uni0D93
 si_Os	si_Os	  uni0D94
 si_Oo	si_Oo	  uni0D95
 si_Au	si_Au	  uni0D96
-# Consonant letters: basic	# Consonant letters: basic
+
+### Consonant letters: basic
 si_Ka	si_Ka	  uni0D9A
 si_Kha	si_Kha	  uni0D9B
 si_Ga	si_Ga	  uni0D9C
@@ -69,7 +70,8 @@ si_Sa	si_Sa	  uni0DC3
 si_Ha	si_Ha	  uni0DC4
 si_Lla	si_Lla	  uni0DC5
 si_Fa	si_Fa	  uni0DC6
-# Matras පිල්ලම්	# Matras පිල්ලම්
+
+### Matras: pillam
 si_Viarma	si_Viarma	  uni0DCA
 si_MatraAa	si_MatraAa	  uni0DCF
 si_MatraAe	si_MatraAe	  uni0DD0
@@ -89,10 +91,9 @@ si_MatraLs	si_MatraLs	  uni0DDF
 si_MatraLl	si_MatraLl	  uni0DF3
 si_MatraRr	si_MatraRr	  uni0DF2
 si_kundaliya	si_kundaliya	  uni0DF4
-
-
 si_MatraAa.halant	si_MatraAa.halant
-#Ya Post forms	#Ya Post forms
+
+### Ya Post forms
 si_Ya.post	si_Ya.post
 si_YAa.post	si_YAa.post
 si_Y.post.halant	si_Y.post.halant
@@ -102,13 +103,11 @@ si_Ya.post.reph	si_Ya.post.reph
 si_Yu.post.reph	si_Yu.post.reph
 si_YUu.post.reph	si_YUu.post.reph
 
-
-
-
+### Repaya and Rakaranshaya
 si_Rakar	si_Rakar
 si_Reph	si_Reph
 
-#Akhand Forms	#Akhand Forms
+### Akhand Forms
 si_KSsa	si_KSsa
 si_KVa	si_KVa
 si_TVa	si_TVa
@@ -121,7 +120,7 @@ si_DVa	si_DVa
 si_DDha	si_DDha
 si_TtTha	si_TtTha
 
-#Astrological digits	#Astrological digits
+### Astrological digits
 si_Lith.Zero	si_Lith.Zero
 si_Lith.One	si_Lith.One
 si_Lith.Two	si_Lith.Two
@@ -298,7 +297,7 @@ si_DVIi	si_DVIi
 si_DDhIi	si_DDhIi
 si_TtThIi	si_TtThIi
 
-### පාපිල්	### පාපිල්
+### Paapili: keti
 si_KU	si_KU
 si_KhU	si_KhU
 si_GU	si_GU
@@ -354,9 +353,7 @@ si_DDhU	si_DDhU
 si_TtThU	si_TtThU
 si_YU.post	si_YU.post
 
-
-
-##########	##########
+### Paapili: deerga
 si_KUu	si_KUu
 si_KhUu	si_KhUu
 si_GUu	si_GUu
@@ -398,7 +395,7 @@ si_SUu	si_SUu
 si_HUu	si_HUu
 si_LlUu	si_LlUu
 si_FUu	si_FUu
-##########	##########
+
 si_KSsUu	si_KSsUu
 si_KVUu	si_KVUu
 si_TVUu	si_TVUu
@@ -412,8 +409,7 @@ si_DDhUu	si_DDhUu
 si_TtThUu	si_TtThUu
 si_YUu.post	si_YUu.post
 
-
-
+### Rakar forms : basic
 si_KRa	si_KRa
 si_KhRa	si_KhRa
 si_GRa	si_GRa
@@ -434,7 +430,8 @@ si_SsRa	si_SsRa
 si_SRa	si_SRa
 si_HRa	si_HRa
 si_FRa	si_FRa
-### Akhnds Rakar Forms	### Akhnds Rakar Forms
+
+### Akhnds Rakar Forms
 si_NDRa	si_NDRa
 
 ### Rakar Forms Matra I	### Rakar Forms Matra I
@@ -458,9 +455,9 @@ si_SsRI	si_SsRI
 si_SRI	si_SRI
 si_HRI	si_HRI
 si_FRI	si_FRI
-### Akhnds Rakar Forms	### Akhnds Rakar Forms
-si_NDRI	si_NDRI
 
+### Akhnds Rakar Forms
+si_NDRI	si_NDRI
 si_KRIi	si_KRIi
 si_KhRIi	si_KhRIi
 si_GRIi	si_GRIi
@@ -481,11 +478,12 @@ si_SsRIi	si_SsRIi
 si_SRIi	si_SRIi
 si_HRIi	si_HRIi
 si_FRIi	si_FRIi
-### Akhnds Rakar Forms	### Akhnds Rakar Forms
+
+### Akhnds Rakar Forms
 si_NDRIi	si_NDRIi
 
 
-### Reph Forms	### Reph Forms
+### Reph Forms
 si_K.reph	si_K.reph
 si_Kh.reph	si_Kh.reph
 si_G.reph	si_G.reph
@@ -536,9 +534,11 @@ si_DYUu.post	si_DYUu.post
 si_DYo.post	si_DYo.post
 si_DYOo.post	si_DYOo.post
 
-##misc
-zerowidthnonjoiner zerowidthnonjoiner uni200C
-zerowidthjoiner zerowidthjoiner uni200D
+### misc
+zwnj zwnj uni200C
+zwj zwj uni200D
+
+###----- End of Sinhala ------###
 
 # Adobe Latin 3
 
