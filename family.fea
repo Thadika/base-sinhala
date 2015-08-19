@@ -12,17 +12,17 @@ include (../../family_tables.fea);
 #---- --AKHN ------------
 
 lookup si_akhands {
-    sub si_Ka si_Halant si_Ssa by si_KSsa;
-    sub si_Ka si_Halant si_Va by si_KVa;
-    sub si_Ta si_Halant si_Va by si_TVa;
-    sub si_Ta si_Halant si_Tha by si_TTha;
-    sub si_Na si_Halant si_Da by si_NDa;
-    sub si_Na si_Halant si_Va by si_NVa;
-    sub si_Na si_Halant si_Dha by si_NDha;
-    sub si_Na si_Halant si_Tha by si_NTha;
-    sub si_Da si_Halant si_Va by si_DVa;
-    sub si_Da si_Halant si_Dha by si_DDha;
-    sub si_Tta si_Halant si_Tha by si_TtTha;
+    sub si_Ka si_Halant zwj si_Ssa by si_KSsa;
+    sub si_Ka si_Halant zwj si_Va by si_KVa;
+    sub si_Ta si_Halant zwj si_Va by si_TVa;
+    sub si_Ta si_Halant zwj si_Tha by si_TTha;
+    sub si_Na si_Halant zwj si_Da by si_NDa;
+    sub si_Na si_Halant zwj si_Va by si_NVa;
+    sub si_Na si_Halant zwj si_Dha by si_NDha;
+    sub si_Na si_Halant zwj si_Tha by si_NTha;
+    sub si_Da si_Halant zwj si_Va by si_DVa;
+    sub si_Da si_Halant zwj si_Dha by si_DDha;
+    sub si_Tta si_Halant zwj si_Tha by si_TtTha;
 } si_akhands;
 
 #---- REPH ----
