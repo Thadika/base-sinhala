@@ -528,14 +528,6 @@ feature rphf {
 
 #-------------
 
-# feature haln {
-#     script sinh;
-#         lookup si_halant_1;
-#         #lookup si_halant_2;
-# } haln;
-
-#-------------
-
 feature abvs {
     script sinh;
         lookup si_halant_1;
