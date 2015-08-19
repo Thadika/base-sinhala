@@ -535,7 +535,10 @@ si_DYu.post	si_DYu.post
 si_DYUu.post	si_DYUu.post
 si_DYo.post	si_DYo.post
 si_DYOo.post	si_DYOo.post
-# ---
+
+##misc
+zerowidthnonjoiner zerowidthnonjoiner uni200C
+zerowidthjoiner zerowidthjoiner uni200D
 
 # Adobe Latin 3
 
