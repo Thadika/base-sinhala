@@ -72,7 +72,7 @@ lookup si_halant_1 {
     sub si_Va si_Halant by si_V.halant;
     sub si_Sha si_Halant by si_Sh.halant;
     sub si_Ssa si_Halant by si_Ss.halant;
-    sub si_Sa si_Halant by si_S.halant;
+    # sub si_Sa si_Halant by si_S.halant;
     sub si_Ha si_Halant by si_H.halant;
     sub si_Lla si_Halant by si_Ll.halant;
     sub si_Fa si_Halant by si_F.halant;
