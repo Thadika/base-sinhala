@@ -457,12 +457,12 @@ lookup si_blws_5 {
 } si_blws_5;
 
 
-#----------- PSTF --------------
+#----------- Yansaya --------------
 #-------------------------------
 
-lookup si_pstf {
-    sub si_Halant si_Ya by si_Ya.post;
-} si_pstf;
+lookup si_yansaya {
+    sub si_Halant zwj si_Ya by si_Ya.post;
+} si_yansaya;
 
 
 #----------- Rakaar ------------
@@ -553,16 +553,10 @@ feature blws {
 
 #-------------
 
-feature pstf {
-    script sinh;
-        lookup si_pstf;
-} pstf;
-
-#-------------
-
 feature vatu {
     script sinh;
         lookup si_rakaar;
+        lookup si_yansaya;
 } vatu;
 
 feature kern {
