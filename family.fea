@@ -28,7 +28,7 @@ lookup si_akhands {
 #---- REPH ----
 
 lookup si_reph {
-    sub si_Ra si_Halant by si_Reph;
+    sub si_Ra si_Halant zwj by si_Reph;
 } si_reph;
 
 #---- HALN ----
