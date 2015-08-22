@@ -464,6 +464,14 @@ lookup si_yansaya {
     sub si_Halant zwj si_Ya by si_Ya.post;
 } si_yansaya;
 
+#----------- Rae, Raae --------------
+#-------------------------------
+
+lookup si_raer {
+    sub si_Ra si_MatraAe by si_RAe;
+    sub si_Ra si_MatraAae by si_RAae;
+}  si_raer;
+
 
 #----------- Rakaar ------------
 #-------------------------------
@@ -558,6 +566,15 @@ feature vatu {
         lookup si_rakaar;
         lookup si_yansaya;
 } vatu;
+
+#-------------
+
+feature psts {
+  script sinh;
+      lookup si_raer;
+} psts;
+
+#-------------
 
 feature kern {
     script sinh;
