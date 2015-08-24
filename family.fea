@@ -156,7 +156,7 @@ lookup si_abvs_2 {
     sub si_Nnga si_MatraIi by si_NngIi;
     sub si_Ca si_MatraIi by si_CIi;
     sub si_Cha si_MatraIi by si_ChIi;
-    # sub si_Ja si_MatraIi by si_JIi;
+    sub si_Ja si_MatraIi by si_JIi;
     sub si_Jha si_MatraIi by si_JhIi;
     sub si_Nya si_MatraIi by si_NyIi;
     sub si_Jnya si_MatraIi by si_JnyIi;
