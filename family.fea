@@ -449,7 +449,6 @@ lookup si_blws_5 {
     sub si_NDa si_MatraAa by si_NDAa;
     sub si_Jnya si_MatraAa by si_JnyAa;
     sub si_Da si_MatraAa by si_DAa;
-    sub si_DRa si_MatraAa by si_DRAa;
     sub si_Nda si_MatraAa by si_NdAa;
     sub si_DAa si_Halant by si_DAa.halant;
     sub si_Da si_MatraR by si_DvocR;
