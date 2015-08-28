@@ -516,6 +516,16 @@ lookup si_rakaar {
     sub si_NDa si_Halant zwj si_Ra by si_NDRa;
 } si_rakaar;
 
+#----------- Split Matras ------------
+#-------------------------------
+
+lookup si_split_matra {
+    sub si_MatraEe by si_Halant;
+    sub si_MatraO by si_MatraAa;
+    # sub si_MatraOo by si_MatraAa
+    sub si_MatraAu by si_MatraLs;
+} si_split_matra;
+
 lookup si_kern {
     pos si_A <0 0 0 0>;
 } si_kern;
@@ -532,6 +542,21 @@ feature rphf {
     script sinh;
         lookup si_reph;
 } rphf;
+
+#-------------
+
+feature vatu {
+    script sinh;
+        lookup si_rakaar;
+        lookup si_yansaya;
+} vatu;
+
+#-------------
+
+feature pstf {
+  script sinh;
+      lookup si_split_matra;
+} pstf;
 
 #-------------
 
@@ -557,14 +582,6 @@ feature blws {
         lookup si_blws_4;
         lookup si_blws_5;
 } blws;
-
-#-------------
-
-feature vatu {
-    script sinh;
-        lookup si_rakaar;
-        lookup si_yansaya;
-} vatu;
 
 #-------------
 
