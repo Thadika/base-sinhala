@@ -445,12 +445,6 @@ lookup si_blws_4 {
 lookup si_blws_5 {
     sub si_Da si_Ya.post by si_DYa.post;
     sub si_Da si_Ya.post si_MatraAa by si_DYAa.post;
-    sub si_Nya si_MatraAa by si_NyAa;
-    sub si_NDa si_MatraAa by si_NDAa;
-    sub si_Jnya si_MatraAa by si_JnyAa;
-    sub si_Da si_MatraAa by si_DAa;
-    sub si_Nda si_MatraAa by si_NdAa;
-    sub si_DAa si_Halant by si_DAa.halant;
     sub si_Da si_MatraR by si_DvocR;
     sub si_Da si_MatraRr by si_DvocRr;
 } si_blws_5;
@@ -525,6 +519,34 @@ lookup si_split_matra {
     sub si_MatraOo by si_MatraAa.halant;
     sub si_MatraAu by si_MatraLs;
 } si_split_matra;
+
+lookup si_da_style {
+    sub si_Da si_MatraAa by si_DAa;
+    sub si_Da si_MatraAa.halant by si_DAa.halant;
+    sub si_Da si_MatraAae by si_DAae;
+    sub si_Da si_MatraAe by si_DAe;
+    sub si_Da si_Ya.post si_MatraAa.halant by si_DYOo.post;
+    sub si_Da si_Ya.post si_MatraUu by si_DYUu.post;
+    sub si_Da si_Ya.post by si_DYa.post;
+    sub si_Da si_Ya.post si_MatraU by si_DYu.post;
+    sub si_NDa si_MatraAa by si_NdAa;
+    sub si_NDa si_MatraAa.halant by si_NdAa.halant;
+    sub si_NDa si_MatraAae by si_NdAae;
+    sub si_NDa si_MatraAe by si_NdAe;
+    sub si_Jnya si_MatraAa by si_JnyAa;
+    sub si_Jnya si_MatraAa.halant by si_JnyAa.halant;
+    sub si_Jnya si_MatraAae by si_JnyAee;
+    sub si_Jnya si_MatraAe by si_JnyAe;
+    sub si_Nda si_MatraAa by si_NDAa;
+    # sub si_Nda si_MatraAa.halant by si_DAa.halant;
+    sub si_Nda si_MatraAae by si_NDAee;
+    sub si_Nda si_MatraAe by si_DAe;
+    sub si_Nya si_MatraAa by si_NyAa;
+    sub si_Nya si_MatraAa.halant by si_NyAa.halant;
+    sub si_Nya si_MatraAae by si_NyAee;
+    sub si_Nya si_MatraAe by si_NyAe;
+
+} si_da_style;
 
 lookup si_kern {
     pos si_A <0 0 0 0>;
@@ -608,4 +630,9 @@ feature abvm {
 feature blwm {
     script sinh;
 } blwm;
+
+feature ss01 {
+  script sinh;
+    lookup si_da_style;
+} ss01;
 #-------------
