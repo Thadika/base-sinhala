@@ -522,7 +522,7 @@ lookup si_rakaar {
 lookup si_split_matra {
     sub si_MatraEe by si_Halant;
     sub si_MatraO by si_MatraAa;
-    # sub si_MatraOo by si_MatraAa
+    sub si_MatraOo by si_MatraAa.halant;
     sub si_MatraAu by si_MatraLs;
 } si_split_matra;
 
