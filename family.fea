@@ -443,8 +443,6 @@ lookup si_blws_4 {
 } si_blws_4;
 
 lookup si_blws_5 {
-    sub si_Da si_Ya.post by si_DYa.post;
-    sub si_Da si_Ya.post si_MatraAa by si_DYAa.post;
     sub si_Da si_MatraR by si_DvocR;
     sub si_Da si_MatraRr by si_DvocRr;
 } si_blws_5;
@@ -526,9 +524,10 @@ lookup si_da_style {
     sub si_Da si_MatraAae by si_DAae;
     sub si_Da si_MatraAe by si_DAe;
     sub si_Da si_Ya.post si_MatraAa.halant by si_DYOo.post;
-    sub si_Da si_Ya.post si_MatraUu by si_DYUu.post;
+    sub si_Da si_YUu.post by si_DYUu.post;
     sub si_Da si_Ya.post by si_DYa.post;
-    sub si_Da si_Ya.post si_MatraU by si_DYu.post;
+    sub si_Da si_Ya.post si_MatraAa by si_DYAa.post;
+    sub si_Da si_YU.post by si_DYu.post;
     sub si_NDa si_MatraAa by si_NdAa;
     sub si_NDa si_MatraAa.halant by si_NdAa.halant;
     sub si_NDa si_MatraAae by si_NdAae;
