@@ -22,7 +22,7 @@ lookup si_akhands {
     sub si_Na si_Halant zwj si_Tha by si_NTha;
     sub si_Da si_Halant zwj si_Va by si_DVa;
     sub si_Da si_Halant zwj si_Dha by si_DDha;
-    sub si_Tta si_Halant zwj si_Tha by si_TtTha;
+    sub si_Tta si_Halant zwj si_Tha by si_TtTtha;
 } si_akhands;
 
 #---- REPH ----
@@ -274,7 +274,7 @@ lookup si_abvs_5 {
    sub	si_NTha	si_MatraI	by	si_NThI;
    sub	si_DVa	si_MatraI	by	si_DVI;
    sub	si_DDha	si_MatraI	by	si_DDhI;
-   sub	si_TtTha	si_MatraI	by	si_TtThI;
+   sub	si_TtTtha	si_MatraI	by	si_TtTthI;
 } si_abvs_5;
 
 lookup si_abvs_6 {
@@ -288,7 +288,7 @@ lookup si_abvs_6 {
   sub	si_NTha	si_MatraIi	by	si_NThIi;
   sub	si_DVa	si_MatraIi	by	si_DVIi;
   sub	si_DDha	si_MatraIi	by	si_DDhIi;
-  sub	si_TtTha	si_MatraIi	by	si_TtThIi;
+  sub	si_TtTtha	si_MatraIi	by	si_TtTthIi;
 } si_abvs_6;
 
 lookup si_abvs_7 {
@@ -379,7 +379,7 @@ lookup si_blws_2 {
   sub	si_NTha	si_MatraU	by	si_NThU;
   sub	si_DVa	si_MatraU	by	si_DVU;
   sub	si_DDha	si_MatraU	by	si_DDhU;
-  sub	si_TtTha	si_MatraU	by	si_TtThU;
+  sub	si_TtTtha	si_MatraU	by	si_TtTthU;
   sub si_Ya.post si_MatraU by si_YU.post;
 } si_blws_2;
 
@@ -438,7 +438,7 @@ lookup si_blws_4 {
   sub	si_NTha	si_MatraUu	by	si_NThUu;
   sub	si_DVa	si_MatraUu	by	si_DVUu;
   sub	si_DDha	si_MatraUu	by	si_DDhUu;
-  sub	si_TtTha	si_MatraUu	by	si_TtThUu;
+  sub	si_TtTtha	si_MatraUu	by	si_TtTthUu;
     sub si_Ya.post si_MatraUu by si_YUu.post;
 } si_blws_4;
 
