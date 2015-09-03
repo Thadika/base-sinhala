@@ -579,6 +579,7 @@ feature pstf {
 feature abvs {
     script sinh;
         lookup si_halant_1;
+        lookup si_halant_2;
         lookup si_abvs_1;
         lookup si_abvs_2;
         lookup si_abvs_3;
