@@ -502,7 +502,7 @@ lookup si_rakaar {
 } si_rakaar;
 
 #----------- Split Matras ------------
-#-------------------------------
+#-------------------------------------
 
 lookup si_split_matra {
     sub si_MatraEe by si_Halant;
@@ -510,6 +510,9 @@ lookup si_split_matra {
     sub si_MatraOo by si_MatraAa.halant;
     sub si_MatraAu by si_MatraLs;
 } si_split_matra;
+
+#----------- Da forms ------------
+#---------------------------------
 
 lookup si_da_style {
     sub si_Da si_MatraAa by si_DAa;
@@ -540,6 +543,53 @@ lookup si_da_style {
 
 } si_da_style;
 
+#----------- Touching ------------
+#---------------------------------
+
+lookup si_touching {
+sub si_Ka zwj si_Halant by si_Ka.touch;
+sub si_Kha zwj si_Halant by si_Kha.touch;
+sub si_Ga  zwj si_Halant by si_Ga.touch;
+sub si_Gha zwj si_Halant by si_Gha.touch;
+sub si_Nga zwj si_Halant by si_Nga.touch;
+sub si_Nnga zwj si_Halant by si_Nnga.touch;
+sub si_Ca zwj si_Halant by si_Ca.touch;
+sub si_Cha zwj si_Halant by si_Cha.touch;
+sub si_Ja zwj si_Halant by si_Ja.touch;
+sub si_Jha zwj si_Halant by si_Jha.touch;
+sub si_Nya zwj si_Halant by si_Nya.touch;
+sub si_Jnya zwj si_Halant by si_Jnya.touch;
+sub si_Ndja zwj si_Halant by si_Ndja.touch;
+sub si_Tta zwj si_Halant by si_Tta.touch;
+sub si_Ttha zwj si_Halant by si_Ttha.touch;
+sub si_Dda zwj si_Halant by si_Dda.touch;
+sub si_Ddha zwj si_Halant by si_Ddha.touch;
+sub si_Nna zwj si_Halant by si_Nna.touch;
+sub si_Nndda zwj si_Halant by si_Ndda.touch;
+sub si_Ta zwj si_Halant by si_Ta.touch;
+sub si_Tha zwj si_Halant by si_Tha.touch;
+sub si_Da zwj si_Halant by si_Da.touch;
+sub si_Dha zwj si_Halant by si_Dha.touch;
+sub si_Na zwj si_Halant by si_Na.touch;
+sub si_Nda zwj si_Halant by si_Nda.touch;
+sub si_Pa zwj si_Halant by si_Pa.touch;
+sub si_Pha zwj si_Halant by si_Pha.touch;
+sub si_Ba zwj si_Halant by si_Ba.touch;
+sub si_Bha zwj si_Halant by si_Bha.touch;
+sub si_Ma zwj si_Halant by si_Ma.touch;
+sub si_Mba zwj si_Halant by si_Mba.touch;
+sub si_Ya zwj si_Halant by si_Ya.touch;
+sub si_Ra zwj si_Halant by si_Ra.touch;
+sub si_La zwj si_Halant by si_La.touch;
+sub si_Va zwj si_Halant by si_Va.touch;
+sub si_Sha zwj si_Halant by si_Sha.touch;
+sub si_Ssa zwj si_Halant by si_Ssa.touch;
+sub si_Sa zwj si_Halant by si_Sa.touch;
+sub si_Ha zwj si_Halant by si_Ha.touch;
+sub si_Lla zwj si_Halant by si_Lla.touch;
+sub si_Fa zwj si_Halant by si_Fa.touch;
+} si_touching;
+ 
 lookup si_kern {
     pos si_A <0 0 0 0>;
 } si_kern;
@@ -548,6 +598,7 @@ lookup si_kern {
 feature akhn {
     script sinh;
         lookup si_akhands;
+        lookup si_touching;
 } akhn;
 
 #-------------
