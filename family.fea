@@ -541,21 +541,21 @@ lookup si_da_style {
 
 } si_da_style;
 
-# lookup si_kern {
-#     pos si_A <0 0 0 0>;
-# } si_kern;
+lookup si_kern {
+    pos si_A <0 0 0 0>;
+} si_kern;
 
-lookup si_touch {
-    # sub zwj' si_Halant' by zwj;
-    pos si_Dda zwj si_Halant si_Da' <-120 0 0 0>;
-    # sub si_Dda by si_Da;
-} si_touch;
+# lookup si_touch {
+#     # sub zwj' si_Halant' by zwj;
+#     pos si_Dda zwj si_Halant si_Da' <-120 0 0 0>;
+#     # sub si_Dda by si_Da;
+# } si_touch;
 
-lookup si_touch2 {
-    # sub zwj' si_Halant' by zwj;
-    sub si_Dda' zwj' si_Halant si_Da by si_Dda;
-    # sub si_Dda by si_Da;
-} si_touch2;
+# lookup si_touch2 {
+#     # sub zwj' si_Halant' by zwj;
+#     sub si_Dda' zwj' si_Halant si_Da by si_Dda;
+#     # sub si_Dda by si_Da;
+# } si_touch2;
 
 ##--------------- Lookups ---------------##
 
@@ -621,27 +621,25 @@ feature psts {
 
 #-------------
 
-# feature kern {
-#     script sinh;
-#         lookup si_kern;
-# } kern;
+feature kern {
+    script sinh;
+        lookup si_kern;
+} kern;
 
 feature dist {
     script sinh;
-        lookup si_touch;
-        lookup si_touch2;
 } dist;
 
-# feature abvm {
-#     script sinh;
-# } abvm;
+feature abvm {
+    script sinh;
+} abvm;
 
-# feature blwm {
-#     script sinh;
-# } blwm;
+feature blwm {
+    script sinh;
+} blwm;
 
-# feature ss01 {
-#   script sinh;
-#     lookup si_da_style;
-# } ss01;
+feature ss01 {
+  script sinh;
+    lookup si_da_style;
+} ss01;
 #-------------
