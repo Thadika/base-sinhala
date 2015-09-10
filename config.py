@@ -1,4 +1,4 @@
-FAMILY_NAME = 'SomeDevanagari'
+FAMILY_NAME = 'MySinhala'
 
 STYLE_NAMES = [
     'Light',
