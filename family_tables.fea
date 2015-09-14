@@ -16,32 +16,32 @@ table GDEF {
 # -----------------------
 # Horizontal Header Table
 # -----------------------
-
 table hhea {
-  Ascender 758;
-  Descender -266;
-  LineGap 204;
+  Ascender 960;
+  Descender -253;
+  LineGap 0;
 } hhea;
 
 
-# ------------------------------
-# OS/2 and Windows Metrics Table
-# ------------------------------
+# OS/2 and Windows metrics
+# ------------------------
 
 table OS/2 {
   FSType 0;
   Panose 2 0 5 0 0 0 0 0 0 0;
   UnicodeRange
-    0   # Basic Latin
-    1   # Latin-1 Supplement
-    2   # Latin Extended-A
-    73  # Sinhala
+     0   # Basic Latin
+     1   # Latin-1 Supplement
+     2   # Latin Extended-A
+    73  # Sinhala 0D80-0DFF
     ;
-  TypoAscender 758;
-  TypoDescender -266;
-  TypoLineGap 204;
-  winAscent 776;
-  winDescent 246;
+  # CodePageRange;
+  TypoAscender 750;
+  TypoDescender -250;
+  TypoLineGap 213;
+  winAscent 960;
+  winDescent 253;
+  WidthClass 5;
   Vendor "mnik";
 } OS/2;
 
