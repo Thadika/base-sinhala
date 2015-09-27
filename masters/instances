@@ -1,0 +1,12 @@
+#!opentype
+
+# `FontMenuNameDB` must be synced to this file.
+# Key `IsBold` has nothing to do with style-linking.
+
+#KEYS:FamilyName	FontName	FullName	Weight	Coords	IsBold
+
+MySinhala	MySinhala-Regular	MySinhala	Regular	(0)	0
+MySinhala	MySinhala-Medium	MySinhala Medium	Medium	(210)	0
+MySinhala	MySinhala-SemiBold	MySinhala SemiBold	SemiBold	(440)	0
+MySinhala	MySinhala-Bold	MySinhala Bold	Bold	(700)	0
+MySinhala	MySinhala-ExtraBold	MySinhala ExtraBold	ExtraBold	(1000)	0

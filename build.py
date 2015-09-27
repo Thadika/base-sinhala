@@ -1,3 +1,13 @@
+#
+# merger.py
+#
+# Copyright (c) 2015,
+# Mooniak <hello@mooniak.com>
+# Ayantha Randika <paarandika@gmail.com>
+#
+# Released under the GNU General Public License version 3 or later.
+# See accompanying LICENSE file for details.
+
 import os, shutil, subprocess
 from subprocess import check_output
 from config import *
@@ -17,7 +27,7 @@ def get_font(directory, suffix = ''):
         font = robofab.world.OpenFont(directory + '/' + font_file_name)
         return font
     else:
-        print "#ITF: Can't find the font file with suffix `%s`." % suffix
+        print "Can't find the font file with suffix `%s`." % suffix
         return None
 
 def fix_Glyphs_UFO_masters(masters):
@@ -76,5 +86,3 @@ for font in STYLE_NAMES:
     f.close()
     otf_path=build_path+"/"+FAMILY_NAME+"-"+font+".otf"
     print check_output("makeotf -f "+style_dir+"/font.ufo -o "+otf_path+" -mf FontMenuNameDB -gf GlyphOrderAndAliasDB"+makeotf_args, shell=True)
-
-
