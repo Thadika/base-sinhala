@@ -1,5 +1,5 @@
 #
-# merger.py
+# build.py
 #
 # Copyright (c) 2015,
 # Mooniak <hello@mooniak.com>
@@ -70,7 +70,6 @@ else:
     for file in fileList:
         os.unlink(build_path+"/"+file)
 
-STYLE_NAMES = ['ExtraBold','Regular','Medium','SemiBold','Bold']
 TEMPLATE_FEATURES = '''\
 #!opentype
 include (../../family.fea);

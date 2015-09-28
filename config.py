@@ -1,5 +1,5 @@
 #
-# merger.py
+# config.py
 #
 # Copyright (c) 2015,
 # Mooniak <hello@mooniak.com>
@@ -10,13 +10,11 @@
 
 FAMILY_NAME = 'MySinhala'
 
-STYLE_NAMES = [
-    'Light',
-    'Regular',
-    'Medium',
-    'SemiBold',
-    'Bold',
-]
+STYLE_NAMES = ['ExtraBold',
+               'Regular',
+               'Medium',
+               'SemiBold',
+               'Bold']
 
 UFOIG_ARGS = [
     # '-kern',
